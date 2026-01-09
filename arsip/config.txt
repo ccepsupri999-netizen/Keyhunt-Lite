@@ -1,0 +1,24 @@
+PubkeyTarget    02145d2611c823a396ef6712ce0f712f09b9b4f3135e3e0aa3230fb9b6d08d1e16
+RangeMin        4000000000000000000000000000000000
+RangeMax        7fffffffffffffffffffffffffffffffff
+StepHex         10000000000
+############    1000000000000
+SubrangeSize  0x1000000000000000000000000000000000
+GroupSize 10
+MaxPubkeyPerBatch 100000
+MaxLinePubhasil 1000
+NumberR 1
+DigitMin
+
+ 
+RandomPure 1
+AutoNumberR 0
+PubHasilPath pubhasil
+HasilPrivPath hasilprivkey.txt
+KeyhuntCmd ./keyhunt -r 0:1000000000000 -f pubhasil -t 6 -k 200
+ 
+
+              
+##StepHex        10000000000000 ##
+##SubrangeSize 0x1000000000000  ##
+
