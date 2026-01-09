@@ -42,7 +42,7 @@ legacy:
 	$(CXX) $(CFLAGS) -c gmp256k1/IntGroup.cpp -o IntGroup.o
 
 	# === Link: gunakan GMP sistem ===
-	$(CXX) $(CFLAGS) -o keyhunt main.cpp \
+	$(CXX) $(CFLAGS) -o keyhunt keyhunt.cpp \
 	  base58.o bloom.o oldbloom.o xxhash.o util.o \
 	  Int.o Point.o GMP256K1.o IntMod.o IntGroup.o Random.o \
 	  hashing.o sha3.o keccak.o \
